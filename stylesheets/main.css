@@ -1,33 +1,46 @@
 .main_container{
   display: flex;
   width: 100%;
-  margin-right:0px;
 }
 
 .grid_container{
   display: grid;
   width: 100%;
-  margin: 2px;
-
 }
+
 .top_row {
   display: grid;
-  grid-template-columns: 66% 33%;
+  grid-template-columns: 66% 34%;
   text-align: center;
-  align-items: start;
+  align-items: center;
+  border: 2px black solid;
+}
+
+.box{
+  border: 2px black solid;
+  height: 100%;
+  width: 100%
+}
+
+.title_box p{
+  text-align: left;
+  margin-left: 110px;
 }
   
 .box_grid{
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33.5%;
   align-items: start;
-  margin-right: 0px;
   width: 100%;
   text-align: center;
-  margin-top: 0px;
 }
 
-
+.profile {
+  border: 2px black solid;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
 
 .title_box{
   color: red;
@@ -35,7 +48,6 @@
 
 .big_picture{
   width: 50%;
-  margin: 0px;
 }
 
 .big_picture img{
